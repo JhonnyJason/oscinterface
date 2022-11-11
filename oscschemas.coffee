@@ -11,7 +11,7 @@ import {
 
 addChatSiteArguments = {
     authCode: STRINGHEX64
-    siteURL: SRING
+    siteURL: STRING
 }
 ############################################################
 getAllChatSitesArguments = {
@@ -20,7 +20,7 @@ getAllChatSitesArguments = {
 ############################################################
 removeChatSiteArguments = {
     authCode: STRINGHEX64
-    siteURL: SRING
+    siteURL: STRING
 }
 
 #endregion
