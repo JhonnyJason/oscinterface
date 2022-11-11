@@ -1,6 +1,7 @@
+[![hackmd-github-sync-badge](https://hackmd.io/XxtzloTDR-2RXd8MtUKkfQ/badge)](https://hackmd.io/XxtzloTDR-2RXd8MtUKkfQ)
 ###### tags: `documentation` `sci`
 
-# [oscinterface](https://github.com/JhonnyJason/oscinterface) v0.2
+# [oscinterface](https://github.com/JhonnyJason/oscinterface) v0.1
 The specific Interface for the administration of the osc-star server.
 
 ## Chat Sites
