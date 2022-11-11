@@ -1,0 +1,23 @@
+### 
+POST {{local}}/addChatSite
+content-type: application/json
+
+{
+"authCode": "...", 
+"siteURL": "..."
+}
+### 
+POST {{local}}/getAllChatSites
+content-type: application/json
+
+{
+"authCode": "..."
+}
+### 
+POST {{local}}/removeChatSite
+content-type: application/json
+
+{
+"authCode": "...", 
+"siteURL": "..."
+}
