@@ -7,12 +7,12 @@ export addChatSite = (sciURL, authCode, siteURL) ->
     return postData(requestURL, requestObject)
 
 export getAllChatSites = (sciURL, authCode) ->
-    requestObject = { timestamp, nonce, signature }
+    requestObject = { authCode }
     requestURL = sciURL+"/getAllChatSites"
     return postData(requestURL, requestObject)
 
 export removeChatSite = (sciURL, authCode, siteURL) ->
-    requestObject = { clientPublicKey, timestamp, nonce, signature }
+    requestObject = { authCode, siteURL }
     requestURL = sciURL+"/removeChatSite"
     return postData(requestURL, requestObject)
 
